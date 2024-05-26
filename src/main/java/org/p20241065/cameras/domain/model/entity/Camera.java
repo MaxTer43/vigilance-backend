@@ -30,9 +30,4 @@ public class Camera extends AuditModel{
     @NotBlank
     @Size(max = 100)
     private Integer unit;
-
-    @NotNull
-    @NotBlank
-    @Size(max = 100)
-    private Long cameraId;
 }

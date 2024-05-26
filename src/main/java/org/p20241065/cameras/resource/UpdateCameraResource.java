@@ -16,15 +16,10 @@ public class UpdateCameraResource {
     @NotNull
     @NotBlank
     @Size(max = 100)
-    private String textQuery;
+    private String location;
 
     @NotNull
     @NotBlank
     @Size(max = 100)
-    private Integer initialSamples;
-
-    @NotNull
-    @NotBlank
-    @Size(max = 100)
-    private Long authorId;
+    private Long unit;
 }
